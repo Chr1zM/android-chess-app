@@ -21,7 +21,7 @@ jobs:
       - run: echo "The job was automatically triggered by a ${{ github.event_name }} event."
       - run: echo "This job is running on a ${{ runner.os }} server hosted by GitHub!"
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - run: echo "The ${{ github.repository }} repository has been cloned."
       - run: echo "Setting up JDK"
       - name: Set up JDK 11
